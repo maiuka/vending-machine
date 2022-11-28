@@ -1,0 +1,29 @@
+const BACKEND_URL = "http://localhost:4000";
+
+const ENDPOINT_AUTH_LOGIN = BACKEND_URL + "/auth/login";
+const ENDPOINT_USER = BACKEND_URL + "/user";
+const ENDPOINT_PRODUCT = BACKEND_URL + "/product";
+const ENDPOINT_BUY = BACKEND_URL + "/buy";
+const ENDPOINT_DEPOSIT = BACKEND_URL + "/deposit";
+const ENDPOINT_RESET = BACKEND_URL + "/reset";
+const ENDPOINT_COINS = BACKEND_URL + "/coins";
+
+const SUPPORTED_COINS = [5, 10, 20, 50, 100];
+
+// Local Storage
+const LS_KEY_ACCESS_TOKEN = "VM_APP_ACCESS_TOKEN";
+
+const AppConfig = {
+  ENDPOINT_AUTH_LOGIN,
+  BACKEND_URL,
+  ENDPOINT_USER,
+  ENDPOINT_PRODUCT,
+  ENDPOINT_BUY,
+  ENDPOINT_DEPOSIT,
+  ENDPOINT_RESET,
+  ENDPOINT_COINS,
+  SUPPORTED_COINS,
+  LS_KEY_ACCESS_TOKEN,
+};
+
+export default AppConfig;

@@ -1,0 +1,44 @@
+.coin-wrapper {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  width: 60px;
+  display: inline-block;
+}
+
+.coin-wrapper-i0 {
+  margin-left: 0;
+}
+
+.coin {
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.coin-count {
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
+}
+
+.coin-wrapper-enabled .coin {
+  cursor: pointer;
+  background-color: #d9a760;
+}
+
+.coin-wrapper-disabled .coin {
+  cursor: wait;
+  background-color: #ccc;
+}

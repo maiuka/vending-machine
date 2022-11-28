@@ -1,0 +1,5 @@
+# Get JWT access_token:
+curl -w "\n" -X POST http://localhost:4000/auth/login -d '{"username": "mario", "password": "mypass1"}' -H "Content-Type: application/json"
+
+# Call /my-endpoint using access_token
+curl -w "\n" http://localhost:4000/my-endpoint -H "Authorization: Bearer PUT_ACCESS_TOKEN_HERE"
